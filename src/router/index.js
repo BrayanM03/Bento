@@ -4,6 +4,7 @@ import {createRouter, createWebHistory } from 'vue-router';
 import Panel from '../views/Panel.vue'
 import Home from '../views/Home.vue'
 import SingUp from '../views/SingUp.vue'
+import Profile from '../views/Profile.vue'
 import { userSessionStore } from '../stores/auth'
 
 import Sistema from '../views/Sistema.vue'
@@ -47,6 +48,14 @@ const routes =[
         component: SingUp,
         meta:{
             title: "Registrar"
+        }
+    },
+    {
+        path: '/profile',
+        name: "Profile",
+        component: Profile,
+        meta:{
+            title: "Perfil | Bento app"
         }
     },
 ]

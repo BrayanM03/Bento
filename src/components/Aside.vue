@@ -2,7 +2,7 @@
    
         <aside>
             <div class="top">
-                <Logo/>
+                <!-- <Logo/> -->
                  <div class="close" id="close-btn" v-on:click="closeAside">
                     <span class="material-symbols-sharp">close</span>
                   </div>

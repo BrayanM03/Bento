@@ -61,7 +61,7 @@ html{
 body{
     width: 100vw;
     height: 100vh;
-    font-family: poppins, sans-serif;
+    font-family: Nunito, sans-serif;
     font-size: 0.88rem;
     background: var(--color-background);
     user-select:none;
@@ -72,7 +72,7 @@ body{
 
 .container-fluid{
     width: 100vw !important;
-    margin: 0px !important;
+    margin: 4rem 0px 0px 0px !important;
     display: grid;
     height:100vh;
     margin: 0 auto;
@@ -154,7 +154,6 @@ b{
 
 aside{
     height: 100vh;
-    border:1px solid #ccc;
 
 }
 

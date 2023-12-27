@@ -1,7 +1,7 @@
 <template>
    
     <Contenedor></Contenedor>
-    <Right></Right>
+    <!-- <Right></Right> -->
 </template>
 <script setup lang="ts">
 import Right from '../components/panel/Right.vue';

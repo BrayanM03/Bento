@@ -1,7 +1,7 @@
 <template>
     <div class="logo">
-                    <img src="../../assets/img/duck.png" alt="">
-                    <h2>Mary <span class="text-muted">ERP</span></h2>
+                    <img src="../../assets/img/logo-bento.png" alt="">
+                    <!-- <h2>Mary <span class="text-muted">ERP</span></h2> -->
     </div>
                 
 </template>
@@ -15,7 +15,7 @@
 }
 
  .logo img{
-    width: 2rem;
-    height: 2rem;
+    width: 150px;
+    height: 55px;
 }
 </style>

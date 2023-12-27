@@ -1,5 +1,11 @@
 <template>
-    <div class="grid grid-cols-3 gap-3 mt-6">
+    <div class="grid md:grid-cols-3 2xl:grid-cols-4 gap-7 mt-7">
+      <div><Card></Card></div>
+      <div><Card></Card></div>
+      <div><Card></Card></div>
+      <div><Card></Card></div>
+      <div><Card></Card></div>
+      <div><Card></Card></div>
       <div><Card></Card></div>
       <div><Card></Card></div>
       <div><Card></Card></div>

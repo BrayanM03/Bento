@@ -4,7 +4,7 @@
              <Loading></Loading>
             </div>
             <div v-else>
-              <Filtro></Filtro>
+              <navbar></navbar>
               <div class="container-fluid">
                 <Aside></Aside>
                 <router-view></router-view>
@@ -15,7 +15,7 @@
 <script lang="ts">
 import Aside from '../components/Aside.vue';
 import Loading from '../components/loading/Loading.vue';
-import Filtro from '../components/filtro-principal/Filtro.vue';
+import navbar from '../components/principales/navbar/navbar.vue';
 import { ref } from 'vue'
 
 export default{
@@ -28,7 +28,7 @@ export default{
 
     },
     components:{
-      Filtro,
+        navbar,
         Aside,
         Loading
     }
