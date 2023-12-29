@@ -31,7 +31,7 @@
                             </router-link>
                         </li>
                         <li>Configuración</li>
-                        <li class="underline decoration-pink-500"><b>Hazte socio</b></li>
+                        <li class="underline decoration-pink-500" v-on:click="cargarAnimacionHazteSocio"><b>Hazte socio</b></li>
                         <li  v-on:click="sessionStore.signOut">Cerrar sesión</li>
                     </ul>
                 </div>
@@ -91,7 +91,15 @@ export default {
             const sideMenu = document.querySelector('aside');
             sideMenu.style.display = 'block';
 
-            }
+        }
+
+        function cargarAnimacionHazteSocio(){
+            console.log('entre');
+            let navbar_principal = document.querySelector('#navbar-principal');
+            console.log(navbar_principal);
+            navbar_principal.style.display = 'block';
+            navbar_principal.style.height = '50hv';
+        }
 
         return {
             changeTheme,
@@ -101,7 +109,8 @@ export default {
             user_name,
             url_profile_picture,
             correo,
-            first_name
+            first_name,
+            cargarAnimacionHazteSocio
             
         }
     },
